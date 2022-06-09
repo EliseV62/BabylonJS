@@ -1,0 +1,158 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Marketing Bundle Documentation</title>
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="styles/jsdoc-cxp.css" />
+    <link rel="stylesheet" href="vendors/prismjs/prism.css" />
+    <link rel="stylesheet" href="styles/theme.cxp-light.css">
+</head>
+
+<body class="jsdoc-cxp">
+
+    
+    <header class="top">
+        <!-- <a class="logo" href="index.html"></a> -->
+        <a class="logo" href="index.html"></a>
+        <form id="search">
+        <input type="text" placeholder="Search" />
+        </form>
+
+        <nav class="top-nav">
+            <!-- <a href="https://www.3ds.com/" target="_blank" title="Dassault Systèmes website">&#xE224</a> -->
+        <a href="https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:g_fzYGr0Q6mHYxoVvGKnOw" target="_blank" title="3DEXCITE User Community">&#xE240</a>
+        <a href="https://help.3ds.com/2019x/English/DSDoc/CxpUserMap/cxp-c-ov.htm" target="_blank" title="3DEXPERIENCE User Assistance">&#xE019</a>
+        </nav>
+    </header>
+
+    <main>
+        <nav class="main-nav">
+            <div class="main-links">
+                <a class="main-link home" href="index.html">Home</a>
+                <a class="main-link prog-guide" href="Getting_Started.html">Getting Started</a>
+            </div>
+            <h3 class=category-title>Create</h3>
+            <ul class="nav-accordion">
+                <li class="nav-accordion--entry1 collapsed">
+                    <div class="title namespace-name"><a href="Instantiation.html">Integration</a></div>
+                    <ul>
+                        <li class="nav-accordion--entry2 collapsed"><a href="Instantiation.html">Instantiation</a></li>
+                        <li class="nav-accordion--entry2 collapsed"><a href="Parameters.html">Parameters</a></li>
+                        <li class="nav-accordion--entry2 collapsed"><a href="APIs.html">APIs</a></li>
+                        <li class="nav-accordion--entry2 collapsed"><a href="Specifications.html">Specifications</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="main-content">
+
+            <section class="md-content">
+                <h2 id="Introduction">Introduction</h2>
+                <p>
+                    We strongly recommend to use Player helper javascript file "Player.js"
+                </p>
+
+                <h2 id="CommunicationPrinciple">Communication principle</h2>
+                <p>
+                    All communication between web page and player is based on events.
+                    All messages must be sent and received within the protocol <strong>"ExperienceCommunication"</strong> </br>
+                    Must wait to receive the first message named <strong>"ExperienceReady"</strong> before sending a message.
+                </p>
+
+                <p>
+                    <strong>With Player.js</strong></br>Call subscribeExperienceReady method with a callback as parameter.
+                </p>
+
+                <p>
+                    <strong>Without Player.js</strong>
+
+                    <pre><code class="language-javascript">
+    window.onmessage = function (e) {
+        if (e && e.data && e.data.protocol === "ExperienceCommunication") {
+        if (e.data.action === 'ExperienceReady') {
+            var playerID = e.data.playerID;
+        // Ok to start interacting with the player
+    }
+</code></pre>
+                </p>
+
+                <p>Now all the API methods already written inside the Player.js or the commands manually can be called.</p>
+
+                <p>
+                    <strong>With Player.js</strong></br>Call an API method of Player.js with a callback that will be call after execution of the APIs.
+                </p>
+
+                <p>
+                    <strong>Without PlayerAPI.js</strong>
+                <p>Send event respecting the protocol as for instance:</p>
+                <pre><code class="language-javascript">
+    var message = {
+        "protocol": "ExperienceCommunication",
+        "playerID": playerID,
+        "action": eventName,
+        "params": params
+    };
+
+    if (window.top !== window) {
+        //Send message to parent window
+        window.parent.postMessage(message, '*');
+        //Send message to the parent's children
+        for (let i = 0, len = window.parent.frames.length; i < len; i++) {
+            window.parent.frames[i].postMessage(message, '*');
+        }
+    }
+
+    //Send message to child iframes of the current window
+    for (var i = 0, len = window.frames.length; i < len; i++) {
+        window.frames[i].postMessage(message, '*');
+    }
+
+    Listen event using addEventListener:
+
+    window.addEventListener('message', function (e) {
+    if (e && e.data && e.data.protocol === "ExperienceCommunication") {
+        var actionDone = e.data.action;
+        // Write integration code
+    });
+</code></pre>
+                </p>
+
+                <p>Specifically to this experience you can call: <br>
+					<strong>"playPermanentAct"</strong> API with the following parameters: "Act 1".<br>
+					<strong>"playScene"</strong> API with the following parameters: "no scene in this experience".<br>
+					<strong>"playActOfScene"</strong> API with the following parameters: "no scene in this experience".</p>
+
+                <p>Note: <strong>"load"</strong> is available for all media, <strong>"play25DVariant", "get25DVariantsNumber", "get25DVariants"</strong> are specific to 2.5D media, all the other ones mentioned under specifications are specific to 3D media.</p>
+
+                <h2 id="ProgressBarEvents">Progress Bar events</h2>
+                <p>Must set <strong>“addProgressBarCallbacks”</strong> to true to receive progress bar events.</p>
+                <p>
+                    Then will receive on <strong>"ExperienceCommunication"</strong> protocol message <strong>“onLoad”</strong> with the following parameters:</br>
+                    <strong>"step":</strong> "LoadingStarted" | "LoadingProgress" | "loadingFinished" | "LoadingError" </br>
+                    <strong>"path":</strong> Media file path </br>
+                    <strong>"progress":</strong> value between 0 to 100 </br>
+                    <strong>"duration":</strong> only if “step” = "loadingFinished"
+                </p>
+                <p>Remember that you can set <strong>"showProgressBar"</strong> to false to hide the default progress bar.</p>
+            </section>
+
+            <footer class="footer">
+                <small class="copyright">Copyright &#xA9; 1999-2022, <a href="https://www.3ds.com/" target="_blank"> Dassault Syst&#xE8;mes</a>. All rights reserved.</small>
+            </footer>
+        </div>
+    </main>
+
+    <script src="searchData.js"> </script>
+    <script src="scripts/classList.js"> </script>
+    <script src="scripts/navigation.js"> </script>
+    <script src="scripts/search.js"> </script>
+    <script src="vendors/prismjs/prism.js"> </script>
+    <script src="scripts/sideNav.js"> </script>
+</body>
+</html>

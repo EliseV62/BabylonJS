@@ -1,0 +1,1 @@
+define("DS/Controls/Controls_zh",{});define("DS/Controls/assets/nls/translation",{cancel:"取消",listAllItems:"列出所有项目",previousItems:"上一批项目",nextItems:"下一批项目",addNewItem:"添加新项目",close:"关闭",rename:"重命名",moreHelp:"更多帮助",loading:"正在加载...",newTab:"新建选项卡",clearAll:"全部清除",clearField:"清除字段",todayButtonLabel:"今天",matchCase:"区分大小写"});

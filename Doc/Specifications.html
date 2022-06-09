@@ -1,0 +1,384 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Marketing Bundle Documentation</title>
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="styles/jsdoc-cxp.css" />
+    <link rel="stylesheet" href="vendors/prismjs/prism.css" />
+    <link rel="stylesheet" href="styles/theme.cxp-light.css">
+</head>
+
+<body class="jsdoc-cxp">
+
+    
+    <header class="top">
+        <!-- <a class="logo" href="index.html"></a> -->
+        <a class="logo" href="index.html"></a>
+        <form id="search">
+        <input type="text" placeholder="Search" />
+        </form>
+
+        <nav class="top-nav">
+            <!-- <a href="https://www.3ds.com/" target="_blank" title="Dassault Systèmes website">&#xE224</a> -->
+        <a href="https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:g_fzYGr0Q6mHYxoVvGKnOw" target="_blank" title="3DEXCITE User Community">&#xE240</a>
+        <a href="https://help.3ds.com/2019x/English/DSDoc/CxpUserMap/cxp-c-ov.htm" target="_blank" title="3DEXPERIENCE User Assistance">&#xE019</a>
+        </nav>
+    </header>
+
+    <main>
+        <nav class="main-nav">
+            <div class="main-links">
+                <a class="main-link home" href="index.html">Home</a>
+                <a class="main-link prog-guide" href="Getting_Started.html">Getting Started</a>
+            </div>
+            <h3 class=category-title>Create</h3>
+            <ul class="nav-accordion">
+                <li class="nav-accordion--entry1 collapsed">
+                    <div class="title namespace-name"><a href="Instantiation.html">Integration</a></div>
+                    <ul>
+                        <li class="nav-accordion--entry2 collapsed"><a href="Instantiation.html">Instantiation</a></li>
+                        <li class="nav-accordion--entry2 collapsed"><a href="Parameters.html">Parameters</a></li>
+                        <li class="nav-accordion--entry2 collapsed"><a href="APIs.html">APIs</a></li>
+                        <li class="nav-accordion--entry2 collapsed"><a href="Specifications.html">Specifications</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="main-content">
+
+            <section class="md-content">
+                <h2 id="Specifications">Specifications</h2>
+
+                <pre><code class="language-json">
+[
+    {
+        "action": "load",
+        "params": {
+            "path": "String",
+            "options": "Object"
+        },
+        "eventBack": {
+            "action": "onLoad",
+            "params": {
+                "step": "String",
+                "path": "String",
+                "progress": "Integer",
+                "duration": "Integer",
+                "error": "String"
+            }
+        },
+        "eventBack2": {
+            "action": "ExperienceReady",
+            "params": {
+                "type": "String"
+            }
+        }
+    },
+    {
+        "action": "play",
+        "params": {},
+        "eventBack": {
+            "action": "onPlay",
+            "params": {}
+        }
+    },
+    {
+        "action": "pause",
+        "params": {},
+        "eventBack": {
+            "action": "onPause",
+            "params": {}
+        }
+    },
+    {
+        "action": "stop",
+        "params": {},
+        "eventBack": {
+            "action": "onStop",
+            "params": {}
+        }
+    },
+    {
+        "action": "playAct",
+        "params": {
+            "name": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "getActs",
+        "params": {},
+        "eventBack": {
+            "action": "onGetActs",
+            "params": {
+                "acts": "Array"
+            }
+        }
+    },
+    {
+        "action": "getActsNumber",
+        "params": {},
+        "eventBack": {
+            "action": "onGetActsNumber",
+            "params": {
+                "number": "Integer"
+            }
+        }
+    },
+	{
+        "action": "playScene",
+        "params": {
+            "name": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "getScenes",
+        "params": {},
+        "eventBack": {
+            "action": "onGetScenes",
+            "params": {
+                "scenes": "Array"
+            }
+        }
+    },
+    {
+        "action": "getScenesNumber",
+        "params": {},
+        "eventBack": {
+            "action": "onGetScenesNumber",
+            "params": {
+            "number": "Integer"
+            }
+        }
+    },
+	{
+        "action": "playActOfScene",
+        "params": {
+            "sceneName": "String",
+			"actName": "String",
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "getActsFromScene",
+        "params": {
+            "name": "String"
+                    },
+        "eventBack": {
+            "action": "onGetActsFromScene+sceneName",
+            "params": {
+                "acts": "Array"
+            }
+        }
+    },
+	{
+        "action": "playPermanentAct",
+        "params": {
+            "name": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "getPermanentActs",
+        "params": {},
+        "eventBack": {
+            "action": "onGetPermanentActs",
+            "params": {
+                "acts": "Array"
+            }
+        }
+    },
+    {
+        "action": "getPermanentActsNumber",
+        "params": {},
+        "eventBack": {
+            "action": "onGetPermanentActsNumber",
+            "params": {
+            "number": "Integer"
+            }
+        }
+    },
+    {
+        "action": "play25DVariant",
+        "params": {
+            "index": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "get25DVariants",
+        "params": {},
+        "eventBack": {
+            "action": "onGet25DVariants",
+            "params": {
+                "variants": "Array"
+            }
+        }
+    },
+    {
+        "action": "get25DVariantsNumber",
+        "params": {},
+        "eventBack": {
+            "action": "onGet25DVariantsNumber",
+            "params": {
+                "number": "String"
+            }
+        }
+    }, 
+    {
+        "action": "showImmersiveHelp",
+        "params": {
+            "show": "Boolean"
+        },
+        "eventBack": {}
+    },
+	{
+        "action": "showVariantGUI",
+        "params": {
+            "show": "Boolean"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setTransparentBackground",
+        "params": {
+           "transparentBackground": "Boolean"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setVisuOptionsPreset",
+        "params": {
+            "preset": "String"
+        }
+    },
+    {
+        "action": "setVisuOptionsAdvanced",
+        "params": {
+           "options": "Object"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setAntiAliasing",
+        "params": {
+            "aa": "String",
+            "mode": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setOIT",
+        "params": {
+            "oit": "Boolean",
+            "mode": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setSSAO",
+        "params": {
+            "ssao": "Boolean",
+            "mode": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setShadow",
+        "params": {
+            "shadow": "Boolean",
+            "mode": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setMirror",
+        "params": {
+            "mirror": "Boolean",
+            "mode": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setGroundShadow",
+        "params": {
+            "groundShadow": "Boolean",
+            "mode": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setBloom",
+        "params": {
+            "bloom": "Boolean",
+            "mode": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setPixelCulling",
+        "params": {
+            "pixelCulling": "Float",
+            "mode": "String"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setTriLights",
+        "params": {
+            "triLights": "Boolean"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setLightParameters",
+        "params": {
+            "intensity": "Integer",
+            "lightIndex": "Integer",
+            "color": "Integer"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setDirectionalLight",
+        "params": {
+            "latitude": "Integer",
+            "longitude": "Integer",
+            "color": "Color",
+            "intensity": "Integer"
+        },
+        "eventBack": {}
+    },
+    {
+        "action": "setAmbientLight",
+        "params": {
+            "color": "Color"
+        },
+        "eventBack": {}
+    }
+]
+            </code></pre>
+
+            </section>
+
+            <footer class="footer">
+                <small class="copyright">Copyright &#xA9; 1999-2022, <a href="https://www.3ds.com/" target="_blank"> Dassault Syst&#xE8;mes</a>. All rights reserved.</small>
+            </footer>
+        </div>
+    </main>
+
+    <script src="searchData.js"> </script>
+    <script src="scripts/classList.js"> </script>
+    <script src="scripts/navigation.js"> </script>
+    <script src="scripts/search.js"> </script>
+    <script src="vendors/prismjs/prism.js"> </script>
+    <script src="scripts/sideNav.js"> </script>
+</body>
+</html>

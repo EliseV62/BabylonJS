@@ -1,0 +1,11 @@
+{
+  "title": "Titolo",
+  "type": "Tipo",
+  "crDate": "Data di creazione",
+  "modDate": "Data di modifica",
+  "owner": "Proprietario",
+  "size": "Dimensioni",
+  "flType": "Tipo file",
+  "creator": "Creatore",
+  "description": "Descrizione"
+}

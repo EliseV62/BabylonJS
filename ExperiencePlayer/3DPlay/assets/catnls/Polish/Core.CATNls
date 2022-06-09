@@ -1,0 +1,109 @@
+<meta charset="UTF-8"/>
+Core.badProxyDef="Nieprawidłowa definicja proxy: ";
+Core.BadExperience="Nieprawidłowa definicja doświadczenia";
+Core.BadUrl="Nieprawidłowy adres url.";
+Core.BadDType="Nieobsługiwany typ obiektu.";
+Core.badServerDef="Nieprawidłowa definicja serwera: ";
+Core.NoMultiDoc="Ładowanie wielu dokumentów jest niedozwolone.";
+Core.BrowserNoWebGL="Przeglądarka nie obsługuje WebGL.";
+Core.BrowserNotSupported="Przeglądarka nie jest obsługiwana.";
+Core.BrowserNotFullySupported="Przeglądarka może nie w pełni obsługiwać zawartości.";
+Core.SplashLoading="Wczytywanie…";
+Core.SplashConverting="Konwertowanie...";
+Core.Click_to_start="Kliknij, aby rozpocząć.";
+Core.ContinueRisk="Kontynuuj na własne ryzyko.";
+Core.DivMissing="3DPlayWeb – nieprawidłowe wywołanie, patrz dokumentacja.";
+Core.LoadingComplete="Wczytywanie zakończone!";
+Core.DeviceNotFullySupported="Twoje urządzenie nie jest obsługiwane.";
+Core.LaunchNativeApp="Uruchom aplikację dla systemu iOS";
+Core.PlatformNotFound="Nie można połączyć się z platformą.";
+Core.TenantError="Nieprawidłowe informacje o zasobach";
+
+Core.ScripNotFoundError="Nie znaleziono wymaganych skryptów:";
+
+Core.LoadingError_VERSION="Nieobsługiwana wersja 3dxml";
+Core.LoadingError_LOAD="Błąd ładowania";
+Core.LoadingError_LOAD_ARCHIVE="Błąd ładowania";
+Core.LoadingError_LOAD_ENTRY="Błąd ładowania";
+Core.LoadingError_PARSE="Błąd ładowania";
+Core.LoadingError_FORMAT="Nieobsługiwany format";
+Core.LoadingError_NO_GEOMETRY="Ten model nie zawiera geometrii 3D";
+Core.LoadingError_UNEXPECTED="Nieoczekiwany błąd";
+Core.LoadingError_NO_2D_GEOMETRY="Ten model nie zawiera geometrii.";
+Core.LoadingError_BAD_SIZE="Nieprawidłowa wartość rozmiaru.";
+Core.LoadingError_Timeout_raised="Przekroczony limit czasu serwera";
+
+Core.NoSupportExtDriveDnD="Napędy zewnętrzne obsługiwane tylko w 3DDrive";
+
+Core.ConversionNeeded="Czekaj, trwa przygotowywanie danych.";
+Core.Convert_SERVICE_NOT_FOUND="Usługa przygotowania danych jest niedostępna.";
+Core.Convert_UNABLE_TO_CONNECT="Nie można uzyskać dostępu do usługi konwersji.";
+Core.Convert_ERROR="Błąd konwersji.";
+Core.Convert_NOTSUPPORTED_SOLIDWORKS="Wersja pliku nie jest obsługiwana.";
+Core.Convert_NOTSUPPORTED_BIN="Puste pliki binarne nie są obsługiwane.";
+Core.Convert_MISSING_FILES="Brakujący plik:";
+Core.Convert_FILE_NOT_LOADED="zasoby nie zostały załadowane.";
+Core.Convert_Civil3D_Warning="Ten dokument zawiera dane Civil3D, które nie są obsługiwane i nie są wyświetlane w bieżącym widoku.";
+
+Core.Preproc_REQUIRE_FAIL="Nie można otworzyć zasobu.";
+
+Core.DefaultSheetName="Arkusz.";
+Core.LoadingDocument404="Nie masz dostępu do tej zawartości.";
+Core.LoadingDocumentError="Wystąpił wyjątek podczas ładowania pliku: ";
+Core.LoadingVideoFormatError="Twoja przeglądarka nie obsługuje formatu wideo dla: ";
+Core.MoreInformation="Więcej informacji można znaleźć tutaj.";
+Core.NoExperience="Nie znaleziono doświadczenia dla typu MIME: ";
+Core.NoExtNoExp="Brak rozszerzenia i brak zdefiniowanego doświadczenia";
+Core.NoFullscreenInfo="Pełny ekran wyłączony. Coś jest m.";
+Core.UnsupportedMimeType1="Dokumenty rozszerzenia ";
+Core.UnsupportedMimeType2=" nie są obsługiwane";
+Core.UnknownProvider="Nieznany dostawca: ";
+Core.UnknownFileType="Nieznany typ pliku: ";
+Core.FormatNotSupported="Brak obsługi formatu: ";
+
+Core.DNDUnSupportedFileType="Przeciąganie i upuszczanie z Eksploratora nie jest obsługiwane dla tego rozszerzenia: ";
+
+
+Core.error="Błąd.";
+Core.warning="Ostrzeżenie.";
+Core.Exception="Podczas ładowania wystąpił wyjątek. Więcej informacji można znaleźć w konsoli.";
+Core.Loading_content_default_Error="Podczas ładowania wystąpił wyjątek. Więcej informacji można znaleźć w konsoli.";
+Core.IncorectNotif="Otrzymano nieprawidłowe powiadomienie";
+
+Core.Menu.About="Informacje";
+Core.Menu.AppName="Sieć 3DPlay";
+Core.Menu.Version="Wersja wewnętrzna";
+Core.Menu.Documentation="Dokumentacja online";
+
+Core.Publish_Title="Udostępnij";
+Core.Help_Title="Pomoc";
+Core.SaveAnnotation_Title="Zapisz adnotacje";
+Core.CreateSavedAnnotation_Title="Utwórz zapisane adnotacje";
+Core.Menu_Help="3DPlay – informacje";
+Core.Publish_ShareAs="Udostępnij jako zdjęcie";
+Core.Publish_Print="Drukuj";
+Core.Publish_Save="Pobierz";
+Core.GeneratingScreenshot="Generowanie obrazu";
+Core.Publish_Swym="Publikuj w społecznościach";
+Core.ShareSwymTitle="Opublikuj obraz w społecznościach/konwersacjach";
+
+
+Core.Menu.Touch="Dotyk";
+Core.Menu.Mouse="Mysz";
+
+Core.HelpSelectBtn="Kliknij część, aby ją wybrać.";
+Core.HelpRotateBtn="Kliknij i przeciągnij widok 3D, aby obrócić kamerę.";
+Core.HelpZoomBtn="Przewiń w górę/w dół, aby powiększyć/pomniejszyć. Ostatnio kliknięta część jest używana jako środek powiększenia: kliknij inną część, aby zmienić środek powiększenia.";
+Core.HelpZoomAltBtn="Kliknij i przeciągnij, aby powiększyć/pomniejszyć (alternatywnie do przewijania).";
+Core.HelpDragBtn="Kliknij i przeciągnij widok 3D, aby przesunąć kamerę.";
+
+Core.HelpTouchPan="Przesuń kamerę dwoma palcami";
+Core.HelpTouchZoom="Powiększ przy użyciu 2 palców";
+Core.HelpTouchRotate="Obróć aparat 1 palcem";
+Core.HelpTouchSelect="Dotknij części, aby ją wybrać";
+Core.HelpTouchReframe="Dwukrotne dotknięcie powoduje ponowne wykadrowanie ujęcia na pustym obszarze. Wykadrowanie jest na tym oparte";
+
+Core.IndexNavigateError="Błąd indeksu podczas przełączania na dane EV6";
+
+Core.FirstSelectedObjectLoaded_Title="Komunikat informacyjny 3DPlay";
+Core.FirstSelectedObjectLoaded="Wczytany jest tylko pierwszy wybrany obiekt";

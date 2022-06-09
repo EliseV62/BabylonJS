@@ -1,0 +1,109 @@
+<meta charset="UTF-8"/>
+Core.badProxyDef="Špatná definice proxy: ";
+Core.BadExperience="Špatná definice prostředí Experience";
+Core.BadUrl="Špatná adresa URL.";
+Core.BadDType="Typ objektu není podporován.";
+Core.badServerDef="Špatná definice serveru: ";
+Core.NoMultiDoc="Načítání více dokumentů není povoleno.";
+Core.BrowserNoWebGL="Prohlížeč nepodporuje WebGL.";
+Core.BrowserNotSupported="Prohlížeč není podporován.";
+Core.BrowserNotFullySupported="Prohlížeč nemusí plně podporovat obsah.";
+Core.SplashLoading="Probíhá načítání...";
+Core.SplashConverting="Probíhá převod...";
+Core.Click_to_start="Začněte kliknutím.";
+Core.ContinueRisk="Pokračujte na vlastní riziko.";
+Core.DivMissing="3DPlayWeb – nesprávný příkaz, viz dokumentace.";
+Core.LoadingComplete="Načítání dokončeno!";
+Core.DeviceNotFullySupported="Vaše zařízení není podporováno.";
+Core.LaunchNativeApp="Spusťte aplikaci iOS";
+Core.PlatformNotFound="Nelze se připojit k platformě.";
+Core.TenantError="Neplatné informace o prostředku";
+
+Core.ScripNotFoundError="Požadované skripty nebyly nalezeny:";
+
+Core.LoadingError_VERSION="Nepodporovaná verze 3dxml";
+Core.LoadingError_LOAD="Chyba načítání";
+Core.LoadingError_LOAD_ARCHIVE="Chyba načítání";
+Core.LoadingError_LOAD_ENTRY="Chyba načítání";
+Core.LoadingError_PARSE="Chyba načítání";
+Core.LoadingError_FORMAT="Nepodporovaný formát";
+Core.LoadingError_NO_GEOMETRY="Tento model neobsahuje 3D geometrii";
+Core.LoadingError_UNEXPECTED="Neočekávaná chyba";
+Core.LoadingError_NO_2D_GEOMETRY="Tento model neobsahuje geometrii.";
+Core.LoadingError_BAD_SIZE="Nesprávná hodnota velikosti.";
+Core.LoadingError_Timeout_raised="Časový limit serveru:";
+
+Core.NoSupportExtDriveDnD="Externí disky jsou podporovány pouze v aplikaci 3DDrive";
+
+Core.ConversionNeeded="Čekejte, probíhá příprava dat.";
+Core.Convert_SERVICE_NOT_FOUND="Služba přípravy dat není k dispozici.";
+Core.Convert_UNABLE_TO_CONNECT="Nelze získat přístup ke službě převodu.";
+Core.Convert_ERROR="Chyba převodu.";
+Core.Convert_NOTSUPPORTED_SOLIDWORKS="Verze souboru není podporována.";
+Core.Convert_NOTSUPPORTED_BIN="Jednoduché binární soubory nejsou podporovány.";
+Core.Convert_MISSING_FILES="Chybějící soubor:";
+Core.Convert_FILE_NOT_LOADED="položky nebyly načteny.";
+Core.Convert_Civil3D_Warning="Tento dokument obsahuje data Civil3D, která nejsou podporována a která nejsou zobrazena v aktuálním zobrazení.";
+
+Core.Preproc_REQUIRE_FAIL="Datový zdroj nelze otevřít.";
+
+Core.DefaultSheetName="List.";
+Core.LoadingDocument404="K tomuto obsahu nemáte přístup.";
+Core.LoadingDocumentError="Při načítání souboru došlo k výjimce: ";
+Core.LoadingVideoFormatError="Váš prohlížeč nepodporuje formát videa pro: ";
+Core.MoreInformation="Více informací zde.";
+Core.NoExperience="Prostředí Experience nebylo nalezeno pro typ MIME: ";
+Core.NoExtNoExp="Není definováno žádné rozšíření a žádné prostředí Experience";
+Core.NoFullscreenInfo="Celá obrazovka vypnuta. Něco chybí.";
+Core.UnsupportedMimeType1="Dokumenty s příponou ";
+Core.UnsupportedMimeType2=" nejsou podporovány";
+Core.UnknownProvider="Neznámý poskytovatel: ";
+Core.UnknownFileType="Neznámý typ souboru: ";
+Core.FormatNotSupported="Formát není podporován: ";
+
+Core.DNDUnSupportedFileType="Přetažení z aplikace Explorer není pro tuto příponu podporováno: ";
+
+
+Core.error="Chyba.";
+Core.warning="Upozornění.";
+Core.Exception="Při načítání došlo k výjimce, další podrobnosti naleznete v konzole.";
+Core.Loading_content_default_Error="Při načítání došlo k výjimce, další podrobnosti naleznete v konzole.";
+Core.IncorectNotif="Bylo přijato nesprávné oznámení";
+
+Core.Menu.About="O aplikaci";
+Core.Menu.AppName="Web 3DPlay";
+Core.Menu.Version="Interní verze";
+Core.Menu.Documentation="Online dokumentace";
+
+Core.Publish_Title="Sdílet";
+Core.Help_Title="Nápověda";
+Core.SaveAnnotation_Title="Uložit popisy";
+Core.CreateSavedAnnotation_Title="Vytvořit uložené popisy";
+Core.Menu_Help="O aplikaci 3DPlay";
+Core.Publish_ShareAs="Sdílet jako obrázek";
+Core.Publish_Print="Tisk";
+Core.Publish_Save="Stáhnout";
+Core.GeneratingScreenshot="Probíhá generování obrázku";
+Core.Publish_Swym="Publikovat v komunitách";
+Core.ShareSwymTitle="Publikovat obrázek v komunitám/konverzacích";
+
+
+Core.Menu.Touch="Dotyk";
+Core.Menu.Mouse="Myš";
+
+Core.HelpSelectBtn="Kliknutím na díl jej vyberte.";
+Core.HelpRotateBtn="Kliknutím a tažením v 3D pohledu kameru otočíte.";
+Core.HelpZoomBtn="Posunutím nahoru/dolů můžete zobrazení přiblížit/oddálit. Naposledy kliknutý díl se používá jako střed zvětšení: kliknutím na jiný díl změníte střed zvětšení.";
+Core.HelpZoomAltBtn="Kliknutím a přetažením přiblížíte/oddálíte zobrazení (alternativně můžete procházet).";
+Core.HelpDragBtn="Kliknutím a přetažením v 3D pohledu posunete kameru.";
+
+Core.HelpTouchPan="Pomocí 2 prstů a posunutím posuňte kameru";
+Core.HelpTouchZoom="Pomocí pohybu stažení 2 prstů přiblížíte";
+Core.HelpTouchRotate="Pomocí 1 prstu otočte kameru";
+Core.HelpTouchSelect="Klepnutím na díl jej vyberete";
+Core.HelpTouchReframe="Poklepáním změníte přiblížení; v prázdné oblasti se přiblížení provede pro scénu, na dílu je přiblížení založeno na dílu";
+
+Core.IndexNavigateError="Chyba indexu při přepínání na data EV6";
+
+Core.FirstSelectedObjectLoaded_Title="Informační zpráva 3DPlay";
+Core.FirstSelectedObjectLoaded="Načte se pouze první vybraný objekt";

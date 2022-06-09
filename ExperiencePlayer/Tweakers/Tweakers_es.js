@@ -1,0 +1,1 @@
+define("DS/Tweakers/Tweakers_es",{});define("DS/Tweakers/assets/nls/translation",{PaginationLabel:"Página {1} de {2}",Undefined:"sin definir",inputNoFileChosen:"No se ha seleccionado ningún archivo",AutoCompletePlaceHolder:"Introducir un valor",AutoCompleteNoValueFound:"No se ha encontrado ningún valor"});

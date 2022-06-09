@@ -1,0 +1,47 @@
+{
+  "CAT3DXVisuManager": {
+    "impl": "DS/CAT3DExpModel/managers/CAT3DXVisuManager"
+  },
+  "CAT3DXEnvironmentManager": {
+    "impl": "DS/CAT3DExpModel/managers/CAT3DXEnvironmentManager"
+  },
+  "CAT3DXLoaderManager": {
+    "impl": "DS/CAT3DExpModel/managers/CAT3DXLoaderManager"
+  },
+  "CAT3DXLinkManager": {
+    "impl": "DS/CAT3DExpModel/managers/CAT3DXLinkManager"
+  },
+  "CAT3DXNotificationsManager": {
+    "impl": "DS/CAT3DExpModel/managers/CAT3DXNotificationsManager"
+  },
+  "CAT3DXUIManager": {
+    "impl": "DS/StudioUIActorModelWeb/managers/CAT3DXUIManager"
+  },
+  "CAT3DXPreviewManager": {
+    "impl": "DS/CAT3DExpModel/managers/CAT3DXPreviewManager"
+  },
+  "CAT3DXDragAndDropManager": {
+    "impl": "DS/CAT3DExpModel/managers/CAT3DXDragAndDropManager"
+  },
+  "CXPWebPlayManager": {
+    "impl": "DS/XCTWebExperienceAppPlay/managers/CXPWebPlayManager"
+  },
+  "CXPWebEventListenerManager": {
+    "impl": "DS/XCTWebExperienceAppPlay/managers/CXPWebEventListenerManager"
+  },
+  "APIPlayerManager": {
+    "impl": "DS/XCTWebExperienceAppPlay/managers/APIPlayerManager"
+  },
+  "CXPWebManager": {
+    "impl": "DS/XCTWebExperienceAppPlay/managers/CXPWebManager"
+  },
+  "EWS3DPlayManager": {
+    "impl": "DS/CXP3DPlay/managers/EWS3DPlayManager"
+  },
+  "XCTEWSAssetLoadManager": {
+    "impl": "DS/CAT3DExpModel/managers/XCTEWSAssetLoadManager"
+  },
+  "CAT3DExperienceESExportManager": {
+    "impl": "DS/XCTWebExperienceAppPlay/managers/CAT3DExperienceESExportManager"
+  }
+}

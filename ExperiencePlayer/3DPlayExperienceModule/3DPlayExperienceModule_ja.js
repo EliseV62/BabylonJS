@@ -1,0 +1,1 @@
+define("DS/3DPlayExperienceModule/3DPlayExperienceModule_ja",{});define("DS/3DPlayExperienceModule/assets/nls/3DPlayExperienceModule",{DROP_MSG_LP:"コンテンツをここにドロップ",Label:"3DSpace 形状の優先品質",auto:"自動",automaticQualityAdaptation:"自動品質適応を許可",high:"図面用の高品質",base:"高品質",index:"低品質 (利用可能時)",displayCandidateQueue:"ロード ボックスを表示"});

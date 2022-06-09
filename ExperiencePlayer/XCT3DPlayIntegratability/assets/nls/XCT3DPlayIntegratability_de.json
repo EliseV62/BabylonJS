@@ -1,0 +1,7 @@
+{
+  "warning_objectTypeNotSupported_title": "Objekttyp nicht unterstützt.",
+  "error_loadingMultipleFiles_title": "Es ist nicht möglich, mehrere Erlebnisse zu laden. Nur das erste wird geladen.",
+  "error_integrityCheck_title": "Prüfung der Medienintegrität fehlgeschlagen.",
+  "error_progress_calculation": "Download-Größe kann nicht berechnet werden.",
+  "error_format_not_supported": "Dateiformat wird nicht unterstützt."
+}

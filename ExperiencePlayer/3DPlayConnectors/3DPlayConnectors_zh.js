@@ -1,0 +1,1 @@
+define("DS/3DPlayConnectors/3DPlayConnectors_zh",{});define("DS/3DPlayConnectors/assets/nls/3DPlayConnectors",{Preproc_REQUIRE_FAIL:"无法打开摆设。",assembly_Not8indexed_FAIL:"尚未处理装配体",Document_Multiple:"无法显示文档，因为附加了多个文件。",Document_No_File:"无法显示文档，因为未附加任何文件。",Error_Downloading:"下载文件时出错。"});

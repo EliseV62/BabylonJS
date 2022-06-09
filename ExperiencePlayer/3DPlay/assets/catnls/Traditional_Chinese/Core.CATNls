@@ -1,0 +1,109 @@
+<meta charset="UTF-8"/>
+Core.badProxyDef="不良 proxy 定義： ";
+Core.BadExperience="不良體驗定義";
+Core.BadUrl="不良 url。";
+Core.BadDType="不支援物件類型。";
+Core.badServerDef="不良伺服器定義： ";
+Core.NoMultiDoc="不允許載入多個文件。";
+Core.BrowserNoWebGL="瀏覽器不支援 WebGL。";
+Core.BrowserNotSupported="瀏覽器不受支援。";
+Core.BrowserNotFullySupported="瀏覽器可能不完全支援內容。";
+Core.SplashLoading="正在載入...";
+Core.SplashConverting="正在轉換...";
+Core.Click_to_start="按一下以開始。";
+Core.ContinueRisk="若繼續，您必須自行承擔風險。";
+Core.DivMissing="3DPlayWeb - 不正確的呼叫，請參閱文件。";
+Core.LoadingComplete="載入完成！";
+Core.DeviceNotFullySupported="您的裝置不受支援。";
+Core.LaunchNativeApp="啟動 iOS 應用程式";
+Core.PlatformNotFound="無法連線至平台。";
+Core.TenantError="無效的資產資訊";
+
+Core.ScripNotFoundError="找不到必要的指令碼：";
+
+Core.LoadingError_VERSION="未支援的 3dxml 版本";
+Core.LoadingError_LOAD="載入錯誤";
+Core.LoadingError_LOAD_ARCHIVE="載入錯誤";
+Core.LoadingError_LOAD_ENTRY="載入錯誤";
+Core.LoadingError_PARSE="載入錯誤";
+Core.LoadingError_FORMAT="不支援的格式";
+Core.LoadingError_NO_GEOMETRY="此模型不含 3D 幾何";
+Core.LoadingError_UNEXPECTED="非預期的錯誤";
+Core.LoadingError_NO_2D_GEOMETRY="此模型不含幾何。";
+Core.LoadingError_BAD_SIZE="錯誤的大小數值。";
+Core.LoadingError_Timeout_raised="伺服器逾時";
+
+Core.NoSupportExtDriveDnD="僅在 3DDrive 支援外接式磁碟機";
+
+Core.ConversionNeeded="請稍候，資料正在準備中。";
+Core.Convert_SERVICE_NOT_FOUND="無法使用資料準備服務。";
+Core.Convert_UNABLE_TO_CONNECT="無法存取轉換服務。";
+Core.Convert_ERROR="轉換錯誤。";
+Core.Convert_NOTSUPPORTED_SOLIDWORKS="不支援檔案的版本。";
+Core.Convert_NOTSUPPORTED_BIN="不支援純二進位檔案。";
+Core.Convert_MISSING_FILES="遺失檔案：";
+Core.Convert_FILE_NOT_LOADED="尚未載入資產。";
+Core.Convert_Civil3D_Warning="本文件包含不受支援且不在目前視圖中顯示的 Civil3D 資料。";
+
+Core.Preproc_REQUIRE_FAIL="無法開啟資產。";
+
+Core.DefaultSheetName="圖頁。";
+Core.LoadingDocument404="您沒有此內容的存取權。";
+Core.LoadingDocumentError="載入檔案時發生例外狀況： ";
+Core.LoadingVideoFormatError="您的瀏覽器不支援下列影片格式： ";
+Core.MoreInformation="如需詳細資訊，請參閱這裡。";
+Core.NoExperience="找不到 MIME 類型的體驗： ";
+Core.NoExtNoExp="沒有任何副檔名，也沒有定義的體驗";
+Core.NoFullscreenInfo="全螢幕已停用。部分內容已遺失。";
+Core.UnsupportedMimeType1="副檔名的文件 ";
+Core.UnsupportedMimeType2=" 不支援";
+Core.UnknownProvider="不明的供應商： ";
+Core.UnknownFileType="未知的檔案類型： ";
+Core.FormatNotSupported="不支援格式： ";
+
+Core.DNDUnSupportedFileType="不支援從檔案總管拖放該副檔名： ";
+
+
+Core.error="錯誤。";
+Core.warning="警告。";
+Core.Exception="載入時發生例外狀況，請參閱主控台以取得更多詳細資料。";
+Core.Loading_content_default_Error="載入時發生例外狀況，請參閱主控台以取得更多詳細資料。";
+Core.IncorectNotif="收到不正確的通知";
+
+Core.Menu.About="關於";
+Core.Menu.AppName="3DPlay Web";
+Core.Menu.Version="內部版本";
+Core.Menu.Documentation="線上文件";
+
+Core.Publish_Title="共用";
+Core.Help_Title="說明";
+Core.SaveAnnotation_Title="儲存註記";
+Core.CreateSavedAnnotation_Title="建立儲存的註記";
+Core.Menu_Help="關於 3DPlay";
+Core.Publish_ShareAs="以圖片共用";
+Core.Publish_Print="列印";
+Core.Publish_Save="下載";
+Core.GeneratingScreenshot="正在產生圖片";
+Core.Publish_Swym="發佈到社群";
+Core.ShareSwymTitle="發佈影像至社群/對話";
+
+
+Core.Menu.Touch="觸控";
+Core.Menu.Mouse="滑鼠";
+
+Core.HelpSelectBtn="按一下零件以選擇。";
+Core.HelpRotateBtn="在 3D 視圖上按一下並拖曳，以旋轉攝影機。";
+Core.HelpZoomBtn="向上/向下捲動可放大/縮小。上次按一下的零件會作為縮放中心：按一下不同的零件以變更縮放中心。";
+Core.HelpZoomAltBtn="按一下並拖曳可放大/縮小 (捲動的替代選項)。";
+Core.HelpDragBtn="在 3D 視圖上按一下並拖曳，以移動攝影機。";
+
+Core.HelpTouchPan="使用 2 根手指滑動攝影機，即可平移攝影機";
+Core.HelpTouchZoom="使用 2 指捏合縮放";
+Core.HelpTouchRotate="使用 1 根手指旋轉攝影機";
+Core.HelpTouchSelect="點選零件以選擇";
+Core.HelpTouchReframe="點兩下可重新構圖，在空白區域上，場景會完成重新構圖，在零件上，重新構圖則是以零件為基礎。";
+
+Core.IndexNavigateError="切換至 EV6 資料時發生索引錯誤";
+
+Core.FirstSelectedObjectLoaded_Title="3DPlay 資訊訊息";
+Core.FirstSelectedObjectLoaded="僅載入第一個選擇的物件";

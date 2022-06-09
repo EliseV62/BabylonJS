@@ -1,0 +1,111 @@
+{
+  "ClipboardError": "剪贴板错误",
+  "ClipboardActionKoMultipleSelection": "该操作对多选无效",
+  "InconsistentNbColumnsPerRowsInClipboard": "剪贴板数据必须与每行的列数相同",
+  "NbColumnsOfClipboardNotEqualToNbVisibleColumns": "剪贴板数据必须与选定节点有相同的列数",
+  "GroupingUIPlaceholder": "拖动此处可设置行组",
+  "GeneratingPrintableView": "正在生成可打印视图...",
+  "UpdatingGrouping": "正在更新分组...",
+  "ContextualMenuBuilder": {
+    "PinMenu": "固定列",
+    "PinLeft": "固定至左侧",
+    "PinRight": "固定至右侧",
+    "NoPin": "不固定",
+    "SizeToFit": "使当前列适屏显示",
+    "SizeGroupToFit": "使组列适屏显示",
+    "SizeAllToFit": "使所有列适屏显示",
+    "InsertRowBefore": "在前面插入行",
+    "InsertRowAfter": "在后面插入行",
+    "CustomViews": "自定义视图..."
+  },
+  "NoObjectsFound": "未找到任何对象",
+  "FilterView": {
+    "Apply": "应用",
+    "Clear": "清除过滤器",
+    "SelectAll": "全选",
+    "FilterValues": "过滤值",
+    "ModifyFilter": "修改过滤器",
+    "AttributeValuePlaceHolder": "输入属性值",
+    "StringRegExp": {
+      "StartsWith": "开始于",
+      "EndsWith": "结束于",
+      "Contains": "包含",
+      "AND": "AND",
+      "OR": "OR"
+    },
+    "Number": {
+      "Equals": "等于",
+      "NotEquals": "不等于",
+      "LessThan": "小于",
+      "LessThanOrEquals": "小于或等于",
+      "GreaterThan": "大于",
+      "GreaterThanOrEquals": "大于或等于",
+      "InRange": "在范围内"
+    }
+  },
+  "DefaultView": "默认视图",
+  "CustomViewDefaultName": "自定义视图",
+  "DataGridViewCustomViewsDialog": {
+    "Title": "自定义视图",
+    "SelectedView": "查看",
+    "RenameViewEditor": {
+      "placeHolder": "输入视图名称"
+    },
+    "RenameView": {
+      "ShortHelp": "重命名视图",
+      "LongHelp": "单击以重命名选定自定义视图"
+    },
+    "DeleteView": {
+      "ShortHelp": "删除视图",
+      "LongHelp": "单击以删除选定自定义视图",
+      "ConfirmationQuestion": "是否确定要删除自定义视图"
+    },
+    "CreateView": {
+      "ShortHelp": "创建新视图",
+      "LongHelp": "单击以创建新自定义视图"
+    },
+    "UpdateFromCurrentView": {
+      "Label": "从当前视图更新",
+      "ShortHelp": "从当前视图更新选定自定义视图",
+      "LongHelp": "选定自定义视图不包含在当前视图中执行的某些更改。\n这些差异以橙色标记。\n单击以从当前视图更改中更新选定自定义视图"
+    },
+    "ApplyView": {
+      "ShortHelp": "自定义视图已保存",
+      "ViewSaved": "更改已成功保存到自定义视图",
+      "ConfirmationQuestion": "是否要对当前视图应用这些更改？"
+    },
+    "ViewAlreadyExists": "已存在该名称的自定义视图 ",
+    "ApplyToCurrentView": "对当前视图应用更改",
+    "Description": "更改选定视图的列属性",
+    "ColumnsName": "列名称",
+    "ColumnsVisibleFlag": "可见性",
+    "ColumnsWidth": "宽度",
+    "ColumnsPinnedState": "固定",
+    "Unpinned": "不固定",
+    "LeftPinned": "左",
+    "RightPinned": "右",
+    "GroupingPlaceholder": "拖动此处可设置行组",
+    "ResetPreferences": "重置为默认值",
+    "SaveAndApply": "保存并应用",
+    "Apply": "应用",
+    "SortByTitle": "排序方式",
+    "SortByComboxBoxFirstLine": "无",
+    "LayoutDensity": "密度",
+    "Compact": "紧凑",
+    "Comfortable": "舒适"
+  },
+  "ModelMassUpdate": {
+    "Title": "批量更新",
+    "Description": "选择要对其更新的属性 ",
+    "ApplyToSelected": "选定项目",
+    "ApplyToAll": "所有项目"
+  },
+  "PrintableView": "可打印视图",
+  "Level": "级别",
+  "OpenCtxMenu": "打开上下文菜单",
+  "Menu": "菜单",
+  "Expand": "展开",
+  "Collapse": "折叠",
+  "ExpandAll": "全部展开",
+  "CollapseAll": "全部折叠"
+}

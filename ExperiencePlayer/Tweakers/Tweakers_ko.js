@@ -1,0 +1,1 @@
+define("DS/Tweakers/Tweakers_ko",{});define("DS/Tweakers/assets/nls/translation",{PaginationLabel:"{1}/{2}페이지",Undefined:"정의되지 않음",inputNoFileChosen:"선택된 파일 없음",AutoCompletePlaceHolder:"값 입력",AutoCompleteNoValueFound:"값이 없음"});
