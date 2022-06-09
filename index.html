@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -11,16 +11,14 @@
 
 <body onload="init()">
     <script >
-        let player;
-        function init() {
-            localStorage.setItem("3DPlay.AllowExpLoad", "true");
-
-            player = new Player("webGL_HMI_34Player");
-            let iframe = player.createBundle("bundle-3ds-webgl_hmi_34");
-
-            let playerContainer = document.getElementById("PlayerContainerId");
-            playerContainer.appendChild(iframe);
-        }
+        let js = document.createElement("script");
+                     js.type = "text/javascript";
+                     js.src = "./webGL_HMI_34WebComponent.js";
+                     document.body.appendChild(js);
+                     let bundle = document.createElement("bundle-3ds-webgl_hmi_34");
+                     bundle.setAttribute('option', 'value');
+                     let playerContainer = document.getElementById("PlayerContainer");
+                     playerContainer.appendChild(bundle);
     </script>
     <style>
         .headerItem {
