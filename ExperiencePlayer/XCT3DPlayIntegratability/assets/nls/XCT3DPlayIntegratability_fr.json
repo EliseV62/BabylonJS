@@ -1,7 +1,0 @@
-{
-  "warning_objectTypeNotSupported_title": "Type d'objet non pris en charge",
-  "error_loadingMultipleFiles_title": "Le chargement de plusieurs expériences est impossible. Seule la première est chargée.",
-  "error_integrityCheck_title": "Echec de la vérification d'intégrité du média.",
-  "error_progress_calculation": "Impossible de calculer la taille de téléchargement.",
-  "error_format_not_supported": "Le format de fichier n'est pas pris en charge."
-}

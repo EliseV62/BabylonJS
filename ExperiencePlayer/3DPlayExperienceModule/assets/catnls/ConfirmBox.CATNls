@@ -1,3 +1,0 @@
-ConfirmBox.ConfirmDiag.Message="This action canot be undone. Do you confirm to proceed?";
-ConfirmBox.ConfirmDiag.ConfirmBtn="Confirm";
-ConfirmBox.ConfirmDiag.CancelBtn="Cancel";

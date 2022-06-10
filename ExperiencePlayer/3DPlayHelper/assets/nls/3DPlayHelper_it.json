@@ -1,7 +1,0 @@
-{
-  "ScripNotFoundError": "Script richiesti non trovati:",
-  "DeviceNotFullySupported": "Dispositivo non supportato.",
-  "LaunchNativeApp": "Avvia l'app iOS",
-  "PlatformNotFound": "Impossibile connettersi alla piattaforma.",
-  "TenantError": "Informazioni risorsa non valide"
-}

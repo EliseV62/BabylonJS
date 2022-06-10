@@ -1,1 +1,0 @@
-define("DS/WidgetServices/WidgetServices_fr",{});define("DS/WidgetServices/assets/nls/SecurityContextNls",{ErrorSecurityContextEmpty:"L'utilisateur n'a pas de contexte de sécurité préféré",ErrorSecurityContext:"Une erreur est survenue pendant la récupération du contexte de sécurité",ErrorTimeOut:"Le serveur met trop de temps pour récupérer le contexte de sécurité"});
