@@ -1,1 +1,0 @@
-define("UWA/Controls/FeedView/Magazine",["UWA/Core","UWA/Controls/FeedView"],function(e,n){"use strict";var a=n.Presentable.extend({viewName:"magazine"});return e.namespace("Controls/FeedView_Magazine",a,e)});

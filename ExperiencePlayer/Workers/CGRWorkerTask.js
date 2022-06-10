@@ -1,1 +1,0 @@
-importScripts("DS/Mesh/ThreeJS_Base.js"),importScripts("DS/Mesh/Mesh.js"),importScripts("DS/Formats/CGRFile.js"),importScripts("DS/Mesh/MeshUtils.js"),onmessage=function(e){var s=new Uint8Array(e.data.buffer),r=e.data.sps?e.data.sps:0,t=new CGRFile(new byteArrayReader(s)).open();postMessage({rep:t.mesh,resource:t.resource,material:t.material,sps:r})};

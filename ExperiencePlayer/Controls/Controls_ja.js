@@ -1,1 +1,0 @@
-define("DS/Controls/Controls_ja",{});define("DS/Controls/assets/nls/translation",{cancel:"キャンセル",listAllItems:"すべての項目をリスト",previousItems:"前の項目",nextItems:"次の項目",addNewItem:"新規項目を追加",close:"閉じる",rename:"名前変更",moreHelp:"詳細なヘルプ",loading:"ロードしています...",newTab:"新規タブ",clearAll:"すべてクリア",clearField:"フィールドをクリア",todayButtonLabel:"今日",matchCase:"大文字と小文字を区別"});

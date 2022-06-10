@@ -1,7 +1,0 @@
-{
-  "ScripNotFoundError": "Required scripts not found :",
-  "DeviceNotFullySupported": "Your Device is not supported.",
-  "LaunchNativeApp": "Launch the iOS App",
-  "PlatformNotFound": "Unable to connect to the Platform.",
-  "TenantError": "Invalid asset informations"
-}

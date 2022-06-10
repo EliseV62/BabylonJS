@@ -1,1 +1,0 @@
-define("DS/ENOXTriptych/ENOXTriptych_fr",{});define("DS/ENOXTriptych/assets/nls/ENOXTriptych",{_close:"Fermer"});

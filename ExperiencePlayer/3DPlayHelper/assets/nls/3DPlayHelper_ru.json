@@ -1,7 +1,0 @@
-{
-  "ScripNotFoundError": "Требуемые сценарии не найдены:",
-  "DeviceNotFullySupported": "Устройство не поддерживается.",
-  "LaunchNativeApp": "Запустить приложение iOS",
-  "PlatformNotFound": "Не удается подключиться к платформе.",
-  "TenantError": "Недопустимые сведения о ресурсе"
-}

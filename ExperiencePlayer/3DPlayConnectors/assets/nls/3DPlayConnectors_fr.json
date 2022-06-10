@@ -1,7 +1,0 @@
-{
-  "Preproc_REQUIRE_FAIL": "Impossible d'ouvrir la ressource",
-  "assembly_Not8indexed_FAIL": "L'assemblage n'est pas encore traité",
-  "Document_Multiple": "Impossible d'afficher le document, car plusieurs fichiers sont attachés.",
-  "Document_No_File": "Impossible d'afficher le document, car aucun fichier n'est attaché.",
-  "Error_Downloading": "Une erreur s'est produite lors du téléchargement du fichier."
-}

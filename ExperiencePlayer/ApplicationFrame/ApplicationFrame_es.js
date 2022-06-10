@@ -1,1 +1,0 @@
-define("DS/ApplicationFrame/ApplicationFrame_es",{});define("DS/ApplicationFrame/assets/nls/ApplicationFrameActionBar",{hideActionBar:"Ocultar barra de acciones",showActionBar:"Mostrar barra de acciones"});
