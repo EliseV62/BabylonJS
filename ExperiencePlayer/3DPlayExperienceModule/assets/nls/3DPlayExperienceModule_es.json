@@ -1,0 +1,10 @@
+{
+  "DROP_MSG_LP": "Suelte su contenido aquí",
+  "Label": "Calidad preferida para la geometría de 3DSpace",
+  "auto": "Automático",
+  "automaticQualityAdaptation": "Permitir la adaptación automática de la calidad",
+  "high": "Alta calidad para ilustración",
+  "base": "Alta calidad",
+  "index": "Baja calidad (según disponibilidad)",
+  "displayCandidateQueue": "Mostrar cuadros de carga"
+}

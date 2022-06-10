@@ -1,0 +1,10 @@
+{
+  "DROP_MSG_LP": "Rilascia il contenuto qui",
+  "Label": "Qualità preferita per la geometria 3DSpace",
+  "auto": "Automatico",
+  "automaticQualityAdaptation": "Consente l'adattamento automatico della qualità",
+  "high": "Alta qualità per illustrazione",
+  "base": "Alta qualità",
+  "index": "Bassa qualità (in base alla disponibilità)",
+  "displayCandidateQueue": "Visualizza riquadri di caricamento"
+}

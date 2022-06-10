@@ -1,0 +1,1 @@
+define("DS/3DPlayConnectors/3DPlayConnectors_ja",{});define("DS/3DPlayConnectors/assets/nls/3DPlayConnectors",{Preproc_REQUIRE_FAIL:"アセットを開くことができません。",assembly_Not8indexed_FAIL:"アセンブリーはまだ処理されていません",Document_Multiple:"複数のファイルが添付されているため、ドキュメントを表示できません。",Document_No_File:"添付されたファイルがないため、ドキュメントを表示できません。",Error_Downloading:"ファイルのダウンロード中にエラーが発生しました。"});

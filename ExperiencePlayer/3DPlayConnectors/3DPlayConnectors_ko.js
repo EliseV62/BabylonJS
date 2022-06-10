@@ -1,0 +1,1 @@
+define("DS/3DPlayConnectors/3DPlayConnectors_ko",{});define("DS/3DPlayConnectors/assets/nls/3DPlayConnectors",{Preproc_REQUIRE_FAIL:"자산을 열 수 없습니다.",assembly_Not8indexed_FAIL:"어셈블리가 아직 처리되지 않음",Document_Multiple:"여러 파일이 첨부되어 문서를 표시할 수 없습니다.",Document_No_File:"첨부된 파일이 없어서 문서를 표시할 수 없습니다.",Error_Downloading:"파일을 다운로드하는 중 오류가 발생했습니다."});

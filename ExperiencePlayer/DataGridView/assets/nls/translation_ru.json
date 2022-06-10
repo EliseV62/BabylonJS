@@ -1,0 +1,111 @@
+{
+  "ClipboardError": "Ошибка буфера обмена",
+  "ClipboardActionKoMultipleSelection": "Это действие не работает с множественным выбором",
+  "InconsistentNbColumnsPerRowsInClipboard": "Данные буфера обмена должны иметь одинаковое количество столбцов в строках",
+  "NbColumnsOfClipboardNotEqualToNbVisibleColumns": "Данные буфера обмена должны иметь одинаковое количество столбцов, в отличие от выбранных узлов",
+  "GroupingUIPlaceholder": "Перетащите сюда, чтобы задать группы строк",
+  "GeneratingPrintableView": "Создание вида для печати...",
+  "UpdatingGrouping": "Обновление группировки...",
+  "ContextualMenuBuilder": {
+    "PinMenu": "Закрепить столбец",
+    "PinLeft": "Закрепить слева",
+    "PinRight": "Закрепить справа",
+    "NoPin": "Не закреплять",
+    "SizeToFit": "Столбец по размеру содержимого",
+    "SizeGroupToFit": "Столбцы группы по размеру содержимого",
+    "SizeAllToFit": "Все столбцы по размеру содержимого",
+    "InsertRowBefore": "Вставить строку перед",
+    "InsertRowAfter": "Вставить строку после",
+    "CustomViews": "Пользовательские виды..."
+  },
+  "NoObjectsFound": "Объекты не найдены",
+  "FilterView": {
+    "Apply": "Применить",
+    "Clear": "Очистить фильтр",
+    "SelectAll": "Выбрать все",
+    "FilterValues": "Фильтровать значения",
+    "ModifyFilter": "Изменить фильтр",
+    "AttributeValuePlaceHolder": "Введите значение атрибута",
+    "StringRegExp": {
+      "StartsWith": "Начинается с",
+      "EndsWith": "Оканчивается на",
+      "Contains": "Содержит",
+      "AND": "AND",
+      "OR": "OR"
+    },
+    "Number": {
+      "Equals": "Равно",
+      "NotEquals": "Не равно",
+      "LessThan": "Меньше",
+      "LessThanOrEquals": "Меньше или равно",
+      "GreaterThan": "Больше",
+      "GreaterThanOrEquals": "Больше или равно",
+      "InRange": "В диапазоне"
+    }
+  },
+  "DefaultView": "Вид по умолчанию",
+  "CustomViewDefaultName": "Пользовательский вид",
+  "DataGridViewCustomViewsDialog": {
+    "Title": "Пользовательские виды",
+    "SelectedView": "Вид",
+    "RenameViewEditor": {
+      "placeHolder": "Введите имя вида"
+    },
+    "RenameView": {
+      "ShortHelp": "Переименовать вид",
+      "LongHelp": "Нажмите, чтобы переименовать выбранный пользовательский вид"
+    },
+    "DeleteView": {
+      "ShortHelp": "Удалить вид",
+      "LongHelp": "Нажмите, чтобы удалить выбранный пользовательский вид",
+      "ConfirmationQuestion": "Действительно удалить пользовательский вид"
+    },
+    "CreateView": {
+      "ShortHelp": "Создать новый вид",
+      "LongHelp": "Нажмите, чтобы создать новый пользовательский вид"
+    },
+    "UpdateFromCurrentView": {
+      "Label": "Обновить из текущего вида",
+      "ShortHelp": "Обновить выбранный пользовательский вид из текущего вида",
+      "LongHelp": "Выбранный пользовательский вид не содержит некоторых изменений, внесенных в текущем виде.\nЭти различия выделены оранжевым цветом.\nНажмите, чтобы обновить выбранный пользовательский вид с учетом изменений текущего вида"
+    },
+    "ApplyView": {
+      "ShortHelp": "Пользовательский вид сохранен",
+      "ViewSaved": "Изменения в пользовательском виде сохранены",
+      "ConfirmationQuestion": "Применить данные изменения к текущему виду?"
+    },
+    "ViewAlreadyExists": "Пользовательский вид для имени уже существует ",
+    "ApplyToCurrentView": "Применить изменения к текущему виду",
+    "Description": "Изменить свойства столбцов выбранного вида",
+    "ColumnsName": "Имя столбца",
+    "ColumnsVisibleFlag": "Видимость",
+    "ColumnsWidth": "Ширина",
+    "ColumnsPinnedState": "Закреплен",
+    "Unpinned": "Не закреплять",
+    "LeftPinned": "Слева",
+    "RightPinned": "Справа",
+    "GroupingPlaceholder": "Перетащите сюда, чтобы задать группы строк",
+    "ResetPreferences": "Восстановить значение по умолчанию",
+    "SaveAndApply": "Сохранить и применить",
+    "Apply": "Применить",
+    "SortByTitle": "Сортировка по",
+    "SortByComboxBoxFirstLine": "Нет",
+    "LayoutDensity": "Плотность",
+    "Compact": "Компактный",
+    "Comfortable": "Удобный"
+  },
+  "ModelMassUpdate": {
+    "Title": "Массовое обновление",
+    "Description": "Выберите атрибуты, которые требуется обновить ",
+    "ApplyToSelected": "Выбранные элементы",
+    "ApplyToAll": "Все элементы"
+  },
+  "PrintableView": "Вид для печати",
+  "Level": "Уровень",
+  "OpenCtxMenu": "Открыть контекстное меню",
+  "Menu": "Меню",
+  "Expand": "Развернуть",
+  "Collapse": "Свернуть",
+  "ExpandAll": "Развернуть все",
+  "CollapseAll": "Свернуть все"
+}

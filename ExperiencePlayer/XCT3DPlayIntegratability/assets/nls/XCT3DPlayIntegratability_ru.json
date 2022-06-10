@@ -1,0 +1,7 @@
+{
+  "warning_objectTypeNotSupported_title": "Тип объекта не поддерживается",
+  "error_loadingMultipleFiles_title": "Загрузка нескольких файлов невозможна. Будет загружен только первый.",
+  "error_integrityCheck_title": "Сбой проверки целостности носителя.",
+  "error_progress_calculation": "Невозможно рассчитать размер скачивания.",
+  "error_format_not_supported": "Этот формат файла не поддерживается."
+}
