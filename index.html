@@ -4,8 +4,8 @@
 <head>
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Net-Zero Heat System</title>
-    <script type="text/javascript" src="./webGL_HMI_34WebComponent.js"></script>
+    <title>Hopper</title>
+    <script type="text/javascript" src="./hopperWebComponent.js"></script>
     <script type="text/javascript" src="./PlayerHelper/Player.js"></script>
 </head>
 
@@ -15,8 +15,8 @@
         function init() {
             localStorage.setItem("3DPlay.AllowExpLoad", "true");
 
-            player = new Player("webGL_HMI_34Player");
-            let iframe = player.createBundle("bundle-3ds-webgl_hmi_34");
+            player = new Player("hopperPlayer");
+            let iframe = player.createBundle("bundle-3ds-hopper");
 
             let playerContainer = document.getElementById("PlayerContainerId");
             playerContainer.appendChild(iframe);
