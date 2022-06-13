@@ -1,0 +1,60 @@
+{
+  "_from": "three-gltf-loader@1.110.0",
+  "_id": "three-gltf-loader@1.110.0",
+  "_inBundle": false,
+  "_integrity": "sha512-sLIggbrER8iAQwGm4HVzf2R6qIOZBLdpExGf8rIB6e1qJRpT35cEYxlGQsoV9T7wBpcwTF4pK8nbyIMra7ce/Q==",
+  "_location": "/three-gltf-loader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "three-gltf-loader@1.110.0",
+    "name": "three-gltf-loader",
+    "escapedName": "three-gltf-loader",
+    "rawSpec": "1.110.0",
+    "saveSpec": null,
+    "fetchSpec": "1.110.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/three-gltf-loader/-/three-gltf-loader-1.110.0.tgz",
+  "_shasum": "74562fe087f76a9cf5768517295a3b11bac7dd1c",
+  "_spec": "three-gltf-loader@1.110.0",
+  "_where": "C:\\Users\\EVE6\\Dassault Systemes\\Published Medias\\threejs-import-gltf",
+  "author": {
+    "name": "JohH",
+    "email": "code@johh.net"
+  },
+  "bugs": {
+    "url": "https://github.com/johh/three-gltf-loader/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": "Starting with three.js r103, GLTFLoader is included in the three package itself and installing three-gltf-loader is no longer necessary. It can be imported from 'three/examples/jsm/loaders/GLTFLoader'",
+  "description": "three.js GLTFLoader wrapped as a module for easy importing",
+  "homepage": "https://github.com/johh/three-gltf-loader#readme",
+  "keywords": [
+    "three",
+    "three.js",
+    "gltf",
+    "gltf2",
+    "loader",
+    "webgl",
+    "es6",
+    "ts",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "three-gltf-loader",
+  "peerDependencies": {
+    "three": ">=0.110.0"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johh/three-gltf-loader.git"
+  },
+  "version": "1.110.0"
+}
