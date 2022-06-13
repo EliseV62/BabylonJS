@@ -1,1 +1,0 @@
-define("UWA/Class/Promise",["UWA/Core","UWA/Promise","UWA/Internal/Deprecate"],function(e,s,r){"use strict";return r.warn("Module UWA/Class/Promise","Use UWA/Promise instead"),e.namespace("Class/Promise",s,e,"replace")});

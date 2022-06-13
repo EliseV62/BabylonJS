@@ -1,1 +1,0 @@
-define("DS/WebUAUtils/WebUAUtils_fr",{});define("DS/WebUAUtils/assets/nls/translation",{UAPanel_Title:"Assistance utilisateur"});

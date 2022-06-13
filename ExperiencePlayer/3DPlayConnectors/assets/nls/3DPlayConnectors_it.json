@@ -1,7 +1,0 @@
-{
-  "Preproc_REQUIRE_FAIL": "Impossibile aprire la risorsa.",
-  "assembly_Not8indexed_FAIL": "L'assieme non è stato ancora elaborato",
-  "Document_Multiple": "Impossibile visualizzare il documento poiché sono allegati più file.",
-  "Document_No_File": "Impossibile visualizzare il documento perché non sono allegati file.",
-  "Error_Downloading": "Si è verificato un errore durante il download del file."
-}

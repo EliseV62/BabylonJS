@@ -1,7 +1,0 @@
-{
-  "Preproc_REQUIRE_FAIL": "No se puede abrir el activo.",
-  "assembly_Not8indexed_FAIL": "Todavía no se ha indexado el ensamblaje",
-  "Document_Multiple": "No se puede mostrar el documento porque hay varios archivos adjuntos.",
-  "Document_No_File": "No se puede mostrar el documento porque no hay archivos adjuntos.",
-  "Error_Downloading": "Ocurrió un error durante la descarga del archivo."
-}

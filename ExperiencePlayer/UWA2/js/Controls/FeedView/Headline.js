@@ -1,1 +1,0 @@
-define("UWA/Controls/FeedView/Headline",["UWA/Core","UWA/Controls/FeedView"],function(e,n){"use strict";var i=n.Full.extend({viewName:"headline"});return e.namespace("Controls/FeedView_Headline",i,e)});

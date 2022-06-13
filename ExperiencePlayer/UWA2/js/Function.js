@@ -1,1 +1,0 @@
-define("UWA/Function",["UWA/Core"],function(n){"use strict";var t={always:function(n){return function(){return n}}};return n.namespace("Function",t,n)});

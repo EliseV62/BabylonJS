@@ -1,1 +1,0 @@
-define("DS/Notifications/Notifications_ja",{});define("DS/Notifications/assets/nls/translation",{closeAll:"すべて閉じる",closeAllTooltip:"すべての通知を閉じる"});

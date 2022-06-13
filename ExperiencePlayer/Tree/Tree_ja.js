@@ -1,1 +1,0 @@
-define("DS/Tree/Tree_ja",{});define("DS/Tree/assets/nls/carousel",{close:"閉じる",next:"次へ",previous:"前へ"});

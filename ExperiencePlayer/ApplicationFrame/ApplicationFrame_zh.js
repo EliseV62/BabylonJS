@@ -1,1 +1,0 @@
-define("DS/ApplicationFrame/ApplicationFrame_zh",{});define("DS/ApplicationFrame/assets/nls/ApplicationFrameActionBar",{hideActionBar:"隐藏操作栏",showActionBar:"显示操作栏"});
